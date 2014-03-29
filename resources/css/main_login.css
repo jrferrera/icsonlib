@@ -1,0 +1,875 @@
+
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/*
+@media (min-width: 768px) {
+  .navbar-nav .caret {
+    display: none;
+  }*/
+
+//added feb 19, 2014
+
+/*Source: http://simonpadbury.com/bootstrap-3-navbar-dropdown-hover/*/
+
+@font-face
+{
+font-family: Geosans;
+src: url('../fonts/Gravity-Book.ttf');
+}
+textarea{
+  resize:none;
+}
+#left
+{
+  float:left;
+  width:70%;
+}
+#carou
+{
+  width:92.5%;
+  position:relative;
+  top:40px;
+  margin:auto;
+  overflow: hidden;
+  height:20em;
+}
+
+#img-car
+{
+  width:95em;
+  margin:-4em 0 0 -2em ;
+
+}
+
+
+#ics
+{
+background-image:url('../img/ics.jpg');
+}
+
+#uplb
+{
+background-image:url('../img/uplb.jpg');
+}
+
+#add
+{
+background-image:url('../img/6.jpg');
+}
+
+#ics, #uplb, #add{
+  background-repeat:no-repeat;
+  background-position:center; 
+  margin-left:0.5em;
+}
+
+.link-gr
+{
+position:relative;
+margin-left:4.7em;
+top:50px;
+float:left;
+width:105%;
+}
+
+/*end of left*/
+
+
+
+
+#ics
+{
+background-image:url('../img/ics.jpg');
+background-repeat:no-repeat;
+}
+
+#uplb
+{
+background-image:url('../img/uplb.jpg');
+background-repeat:no-repeat;
+}
+
+#add
+{
+background-image:url('../img/6.jpg');
+}
+
+.link-gr
+{
+position:relative;
+margin-left:2.7em;
+top:50px;
+float:left;
+width:70%;
+}
+
+/*end of left*/
+
+/*start of right*/
+#right
+{
+  width:250px;
+  float:right;
+}
+#signin1
+{
+  width:250px;
+  float:right;
+  position:relative;
+  top:50px;
+  margin-right:36em;
+  margin-left:30em;
+  margin-top: 3em;
+}
+
+#announ
+{
+  position:relative;
+  margin-top:20em;
+  margin-left: 22em;
+
+}
+#edit_account{
+  margin-top: 1em;
+  margin-left: 29em;
+
+}
+#submitref{
+  margin-top: 1em;
+  margin-left: 10em;
+
+}
+
+
+
+/*USER-DEFINED*/
+
+.main{
+  
+  margin:auto;
+  margin-top:2.9em;
+  padding:10px;
+  width:86.7em;
+  height:35em;
+  display:relative;
+}
+
+#advancedSearchBody{
+  margin-left: 3em;
+}
+
+.navbar-layout{
+
+  
+  background-color: #446791;
+}
+
+#logo-pos{
+
+  margin-left:-1.6em;
+
+}
+#librarian-header{
+  margin-top:1em;
+  margin-left: 62em;
+}
+#admin-header{
+  margin-top:1em;
+  margin-left: 63em;
+}
+#user-header{
+  margin-top:1em;
+  margin-left: 64em;
+}
+#librarian
+{
+
+  margin-top: 10em;
+}
+
+.dropdown-submenu{
+    position:relative;
+}
+
+.dropdown-submenu > .dropdown-menu
+{
+   top:100%;
+   left:80%;
+   margin-top:-6px;
+   margin-left:-1px;
+   -webkit-border-radius:0 6px 6px 6px;
+   -moz-border-radius:0 6px 6px 6px;
+   border-radius:0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover > .dropdown-menu{
+   display:block;
+}
+
+.dropdown-submenu > a:after{
+   display:block;
+   content:" ";
+   float:right;
+   width:0;
+   height:0;
+   border-color:transparent;
+   border-style:solid;
+   border-width:5px 5px 0;
+   border-top-color:#cccccc;
+   margin-top:5px;
+   margin-right:-10px;
+}
+
+.dropdown-submenu:hover > a:after{
+border-top-color:#ffffff;
+}
+#view_report{
+    margin-top: 10em;
+}
+/*end of right*/
+#about_us{
+  width: 30em;
+  margin-left: 8em;
+  margin-top: 3em;
+  font-size: 2em;
+  text-align: justify;
+
+}
+#table_search{
+  margin-left: 5em;
+  margin-right: 10%;
+  margin-top: 5em;
+
+}
+#table_searchlib{
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+#search_top{
+  margin-top:0.5em;
+ margin-left: 5em;
+}
+#buttons_search{
+  margin-left: 10em;
+}
+
+#addReferenceForm{
+  margin-top: 0em;
+  margin-left: 28em;
+  width: 45em;
+}
+#buttonslib{
+
+  margin-left: 36%;
+}
+.pagination_table{
+  margin-left:30%;
+}
+
+#booktable{
+  margin-left: 5em;
+  width: 86em;
+}
+
+#buttonSearch{
+  padding-left:3em;
+}
+
+#booktable th{
+  text-align: center;
+}
+
+#booktable td{
+
+  text-align: center;
+  
+}
+
+#booktable1{
+  margin-left: 16em;
+
+  margin: auto;
+
+  width:80em;
+
+}
+
+#buttonsLibrarian{
+  margin-left: 9em;
+}
+
+#booktable1 th{
+
+  text-align: center;
+}
+#paginationStyle1{
+ 
+
+}
+#paginationStyle{
+  margin-left: 20em;
+
+}
+#paginationStyle table{
+z-index: -99;
+}
+#button_ref{
+  margin-top: 0.5em;
+  margin-left: 10em;
+
+}
+#button_ref1{
+  margin-top: 0.5em;
+  margin-left: 7em;
+
+}
+#back_button{
+  margin-top: 0em;
+  margin-left: 3em;
+}
+#back_button1{
+  margin-top: -8em;
+  margin-left: 43em;
+}
+#back_button2{
+  margin-top: -4.3em;
+  margin-left: 21em;
+}
+#back_button5{
+  margin-top: -4em;
+  margin-left: 21em;
+}
+
+h3{
+  margin-left: 23.5em;
+  margin-top: 1.5em;
+}
+#alertmessage:empty {
+    display: none;
+ 
+}
+#fileUploadForm{
+  margin-left: 34em;
+  margin-top: 2em;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  border-color: black;
+   background-color: #dff0d8;
+   width:25em;
+   padding: 2em;
+}
+#view_report{
+  margin-left: 34em;
+  margin-top: 2em;
+  border: 1px solid transparent;
+  border-radius: 4px;
+ 
+   background-color: #dff0d8;
+   width:25em;
+   padding: 2em;
+}
+
+#buttonsReport{
+  margin-left: 1em;
+}
+#search_container{
+  margin-top: 3em;
+}
+
+#category_option_container{
+  margin-top: 0.5em;
+}
+#buttonsAdmin{
+  margin-top: -2.3em;
+  margin-left: 16em;
+}
+#admin_results{
+  margin-left: -7.5em;
+  width: 82em;
+}
+
+#admin_results th{
+
+  text-align: center;
+}
+#admin_results td{
+  text-align: center;
+  width:8em;
+}
+#search_result_container{
+  margin-left: 15em;
+}
+#viewResults{
+  margin-top: 2em;
+  margin-left: 30em;
+}
+#edit_profile_button{
+  margin-left: 40em;
+  margin-top: 5em;
+}
+#alertmessage1{
+  text-align: center;
+}
+
+#footer {
+  height: 60px;
+  background-image:url("../img/gradient.png");
+  font-size: 10px;
+}
+
+#cart_body{
+
+  margin-top: 2em;
+ 
+
+}
+
+#alertmessage2{
+  width: 8em;
+  font-size: 2em;
+  padding-left: 0.9em;
+  margin-top: 3em;
+}
+
+#h2_id{
+  margin-left: 15em;
+}
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container1 {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+#prof_btn{
+  margin-top: 1em;
+  margin-left: 16em;
+}
+
+#pagination_view{
+  margin-left: 17em;
+
+}
+
+
+
+#cart_table{
+  margin-left: 4em;
+  width:88em;
+}
+
+#warning_top{
+
+  border: 1px solid transparent;
+  border-radius: 4px;
+  border-color: black;
+   background-color: #dff0d8;
+   width:25em;
+   padding: 2em;
+}
+
+#add_acc{
+  margin-top: 1em;
+  margin-left: 33em;
+  width: 40em;
+}
+#button_submit{
+  margin-left: -2em;
+}
+#fetched {
+
+  margin-left: 8em;
+  color: #989898;
+  font-weight: bold;
+}
+
+.header_class{
+  font-size: 14px;
+  line-height: 1.428571429;
+  padding: 1px;
+  width: 49%;
+  height: 34px;
+  color: #555555;
+  vertical-align: middle;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+          transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+
+}
+
+
+.header_class:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.header_class1{
+  font-size: 14px;
+  line-height: 1.428571429;
+  padding: 1px;
+  width: 97%;
+  height: 34px;
+  color: #555555;
+  vertical-align: middle;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+          transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+
+}
+
+
+.header_class1:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+
+.header_class2{
+  font-size: 14px;
+  line-height: 1.428571429;
+  padding: 5px;
+  width: 20%;
+  height: 34px;
+  color: #555555;
+  vertical-align: middle;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+          transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+
+}
+
+
+.header_class2:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+
+.button_head{
+  margin-left: 1.5em;
+}
+
+#view_results{
+  margin-top: 2em;
+  margin-left: 29em;
+}
+
+#view_book{
+  margin-top: 3em;
+  margin-left: 10em;
+}
+
+#linked a, a[href^="#"]:after {
+    content: "";
+    color: #ffffff;
+}
+#linked1 a, a[href^="#"]:after {
+    content: "";
+    color: black;
+}
+
+#search_1{
+background-color: #ffffff;
+  border: 1px solid gray;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+          transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+
+  width: 20em;
+  height: 11em;
+  padding-top: 1em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  margin-left: -1em;
+  margin-top: 2.5em;
+}
+
+#center_button{
+
+  margin-left: 9.5em;
+  position: relative;
+}
+
+.edit{
+  margin-left: 5em;
+}
+
+#emp{
+  margin-left: 5em;
+}
+
+
+#faqs{
+  
+}
+#markAll{
+  margin-left: -3em;
+}
+#dele{
+  margin-top: -3.5em;
+  margin-left: 3.5em;
+}
+
+#adminButtons{
+  margin-left: -7.5em;
+
+}
+#results{
+  margin-left: -4em;
+}
+#buttonsLibrarian{
+  margin-left: 17em;
+}
+
+.row1 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  background-color: #ffffff;
+  border-color: #cccccc;
+  border: 1px solid #ddd;
+  opacity:10%;
+ 
+  width: 57.5em;
+}
+
+#ref_mat{
+  margin-left: 30em;
+}
+
+#butview{
+  margin-top: 1em;
+  margin-left: 12em;
+}
+
+#transactionLibrarian{
+
+  width: 80em;
+  margin-left: 5em;
+}
+
+.editform{
+  margin-left: 23em;
+}
+
+
+/*
+  Styles for the the FAQS
+*/
+
+.quest{
+  font-weight: bold;
+
+}
+
+.ans{
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.ans::first-letter{
+  padding-left:3em;
+}
+
+.faq-container {
+  background: #eaeaea; 
+ margin: 3em auto 5em auto;
+  padding: 4em;
+  width: 960px;
+}
+
+.go-top {
+  position: fixed;
+  bottom: 6em;
+  right: 3em;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+  padding: 1em;
+  display: none;
+}
+
+.go-top:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-decoration: none;
+}
+
+/* ABOUT STYLES */
+
+
+.about-container {
+  background: #eaeaea; 
+  margin: 3em auto 5em auto;
+  padding: 4em;
+  width: 960px;
+}
+
+.about-h1{
+  font-size: 28px;
+  color:black;
+  margin-left: 0;
+
+}
+
+.about-h3 {
+  
+  font-size: 20px; 
+  margin-left: 0;
+}
+
+
+
+.about-border1{
+  margin-bottom: 3em;
+  margin-top: 2em;
+  border-bottom: gray solid 1px;
+}
+
+.buttonsFixed{
+  width: 20em;
+}
+.fixed{
+  width: 15em;
+}
+
+.fixedCheckBox{
+  width:10em;
+
+}
+
+.fixedReferenceDetails{
+  width:25em;
+}
+
+.fixedTimesBorrowed{
+  width:10em;
+}
+
+
+.calendar {
+  font-family:"Geosans" Georgia Arial;
+  
+    border-collapse: collapse;
+
+}
+
+.calendar tbody tr:first-child th {
+    color: black;
+    margin: 0 0 10px 0;
+    font-size: 18px;
+     
+}
+
+.day_header {
+    font-weight: normal;
+    text-align: center;
+    color: #757575;
+    font-size: 10px;
+}
+.prev{
+  font-size: 8px;
+}
+.calendar td {
+    width: 4.5em; /* Force all cells to be about the same width regardless of content */
+    border:1px solid #CCC;
+    vertical-align: top;
+    font-size: 10px;
+    padding: 0;
+}
+
+.calendar td:hover {
+    background: #F3F3F3;
+}
+
+.day_listing {
+    display: block;
+    text-align: right;
+    font-size: 12px;
+    color: #2C2C2C;
+    padding: 5px 5px 0 0;
+}
+
+div.today {
+    background: #E9EFF7;
+    height: 100%;
+} 
+
+#saveMessage{
+     color:green;
+  
+}
+
+.error_message{
+  color: red;
+}
+
+#profilered{
+  color: red;
+  text-align: left;
+}
+
+#libsearch{
+  margin-left: 4em;
+}
+#profileblack{
+  color: #ffcc33;
+  text-align: center;
+}
+.fontsize{
+  font-size: 13px;
+}
+
+#alignright{
+  color: red;
+  font-size: 12px;
+  padding-left: 23px;
+  text-align: right;
+}
+#alignright1{
+  text-align: right;
+  font-size: 12px;
+  padding-left: 23px;
+}
+
+#toTop{
+  margin-top: -3em;
+  margin-left: 3.5em;
+}
+
+#back{
+  margin-top: -2em;
+  margin-left: -4em;
+}
+#res{
+  margin-top: -2.5em;
+  margin-left: 12em;
+}

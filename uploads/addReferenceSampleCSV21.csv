@@ -1,0 +1,22 @@
+TITLE,AUTHOR,ISBN,CATEGORY,DESCRIPTION,PUBLISHER,PUBLICATION_YEAR,ACCESS_TYPE,FOR DELETION,TOTAL_AVAILABLE,TOTAL_STOCK,TIMES_BORROWED,COURSE_CODE
+Computer Applications in Engineering Education,Magdy F. Iskander,,J,,"Wiley Periodicals, Inc., A Wiley Company",2014,F,f,6,6,0,CS128
+Model-Driven and Software Product Line Engineering,Hugo Arboleda,9.78E+12,B,,ISTE Ltd,2012,F,f,3,5,0,CS128
+Computational Intelligence,Ali Ghorbani,,J,This leading international journal promotes and stimulates research in the field of artificial intelligence (AI).,"Wiley Periodicals, Inc.",2014,S,f,4,5,0,CS170
+"Emerging Methods, Technologies, and Process Management in Software Engineering",Andrea De Lucia,9.78E+12,B,,"John Wiley & Sons, Inc.",2008,S,f,2,7,0,CS128
+Process Control Engineering,M. Polke,9.78E+12,B,"This book surveys methods, problems, and tools used in process control engineering. Its scope has been purposely made broad in order to permit an overall view of this subject.",VCH Verlagsgesellschaft mbH,1994,F,f,2,2,0,CS125
+The Handbook of Information and Computer Ethics,Kenneth Einar Himma,9.78E+12,B,This handbook provides an accessible overview of the most important issues in information and computer ethics.,"John Wiley & Sons, Inc.",2008,F,f,2,3,0,CS11
+Random Structures & Algorithms,Michal Karonski,,J,,"Wiley Periodicals, Inc., A Wiley Company",2014,S,f,3,9,0,CS123
+Network Modeling and Simulation: A Practical Perspective,Mohsen Guizani,9.78E+12,B,Network Modeling and Simulation is a practical guide to using modeling and simulation to solve real-life problems.,"John Wiley & Sons, Ltd",2010,F,f,1,2,0,CS100
+Advanced Computer Architecture and Parallel Processing,Hesham El-Rewini,9.78E+12,B,"Computer architecture deals with the physical configuration, logical structure, formats, protocols, and operational sequences for processing data, controlling the configuration, and controlling the operations over a computer.","John Wiley & Sons, Inc.",2005,F,f,5,8,0,CS132
+Computer Animation and Virtual Worlds,Nadia Magnenat Thalmann,,J,,"John Wiley & Sons, Ltd.",,S,f,2,6,0,CS161
+"3D Object Processing: Compression, Indexing and Watermarking",Jean-Luc Dugelay,9.78E+12,B,,"John Wiley & Sons, Ltd",2008,F,f,2,4,0,CS161
+Computer System Design: System-on-Chip,Michael J. Flynn,9.78E+12,B,,"John Wiley & Sons, Inc.",2011,F,f,3,3,0,CS132
+"Compiler Construction Using Java, JavaCC, and Yacc",Anthony J. Dos Reis,9.78E+12,B,"Broad in scope, involving theory, the application of that theory, and programming technology, compiler construction is a moving target, with constant advances in compiler technology taking place.","the IEEE Computer Society, Inc.",2012,S,f,1,2,0,CS129
+Concurrency and Computation: Practice and Experience,Geoffrey C. Fox,,J,,"John Wiley & Sons, Ltd.",2014,F,f,1,1,0,CS132
+Mobile 3D Graphics SoC: From Algorithm to Chip,Jeong-Ho Woo,9.78E+12,B,"The first book to explain the principals behind mobile 3D hardware implementation, helping readers understand advanced algorithms, produce low-cost, low-power SoCs, or become familiar with embedded systems",John Wiley & Sons (Asia) Pte Ltd,2010,F,f,3,7,0,
+Journal of Computer-Mediated Communication,S. Shyam Sundar,,J,,International Communication Association,2014,S,f,4,6,0,CS170
+Journal of Software: Evolution and Process,Gerardo Canfora,,J,,"John Wiley & Sons, Ltd.",,F,f,5,6,0,CS128
+Internet Technologies Handbook: Optimizing the IP Network,Mark A. Miller,9.78E+12,B,"A comprehensive reference that addresses the need for solid understanding of the operation of IP networks, plus optimization and management techniques to keep those networks running at peak performance",Mark A. Miller. All rights reserved.,2004,F,f,6,7,0,CS100
+International Journal of Network Management,James Won-Ki Hong,,J,,"John Wiley & Sons, Ltd.",,S,f,3,3,0,CS100
+Fundamentals of Software Testing,Bernard Homès,9.78E+12,B,,ISTE Ltd,2012,F,f,2,5,0,CS128
+Designing a Better Authentication Model,Prashasti Gehalot,,T,,,2013,S,f,1,1,0,CS132
